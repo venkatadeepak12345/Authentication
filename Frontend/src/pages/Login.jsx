@@ -29,7 +29,7 @@ const Login = ({ setUser }) => {
   };
 
   return (
-    <div className="min-h-[80vh] flex items-center justify-center">
+    <div className="min-h-[85vh] flex items-center justify-center">
       <form className="bg-white p-6 rounded shadow-md" onSubmit={handleSubmit}>
         <h2 className="text-xl mb-4">Login</h2>
 
