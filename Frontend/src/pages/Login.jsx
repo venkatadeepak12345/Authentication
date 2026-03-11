@@ -17,7 +17,10 @@ const Login = ({ setUser }) => {
     try {
       const res = await axios.post(
         "/api/auth/login",
-        form
+        form,
+        {
+          withCredentials:true
+        }
       );
 
       setUser(res.data.user);
